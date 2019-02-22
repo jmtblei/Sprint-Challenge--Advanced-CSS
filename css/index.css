@@ -167,9 +167,13 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 800px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  position: fixed;
+  top: 0;
 }
 @media ( max-width: 500px ) {
   .container-head .navheader {
@@ -188,6 +192,7 @@ p {
   line-height: 1.4;
   text-decoration: none;
   color: #23293B;
+  text-align: center;
 }
 footer {
   color: #22283B;
@@ -203,6 +208,9 @@ footer {
   .home {
     width: 100%;
   }
+}
+.home .intro {
+  margin-top: 125px;
 }
 .home .intro img {
   width: 100%;
